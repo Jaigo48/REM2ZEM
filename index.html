@@ -1,0 +1,1876 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ReachN Ultimate ZEM — Ecommerce Copywriting Case Study</title>
+
+    <style>
+        /* =========================
+           BASIC RESET
+        ========================== */
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            color: #111111;
+            background: #ffffff;
+            line-height: 1.6;
+        }
+
+        /* =========================
+           GENERAL LAYOUT
+        ========================== */
+
+        .container {
+            width: 90%;
+            max-width: 1150px;
+            margin: 0 auto;
+        }
+
+        section {
+            padding: 80px 0;
+        }
+
+        h1,
+        h2,
+        h3 {
+            line-height: 1.15;
+        }
+
+        h1 {
+            font-size: 64px;
+            margin-bottom: 24px;
+        }
+
+        h2 {
+            font-size: 42px;
+            margin-bottom: 20px;
+        }
+
+        h3 {
+            font-size: 24px;
+            margin-bottom: 12px;
+        }
+
+        p {
+            color: #555555;
+            max-width: 750px;
+        }
+
+        /* =========================
+           NAVIGATION
+        ========================== */
+
+        nav {
+            border-bottom: 1px solid #dddddd;
+            background: #ffffff;
+        }
+
+        .nav-inner {
+            height: 70px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .logo {
+            font-weight: 700;
+            letter-spacing: 0.5px;
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 24px;
+            list-style: none;
+        }
+
+        .nav-links a {
+            color: #111111;
+            text-decoration: none;
+            font-size: 14px;
+        }
+
+        .nav-links a:hover {
+            text-decoration: underline;
+        }
+
+        /* =========================
+           BUTTONS
+        ========================== */
+
+        .button {
+            display: inline-block;
+            background: #111111;
+            color: #ffffff;
+            text-decoration: none;
+            padding: 14px 22px;
+            margin-top: 24px;
+            font-weight: 700;
+            border: 1px solid #111111;
+        }
+
+        .button:hover {
+            background: #333333;
+        }
+
+        /* =========================
+           HERO
+        ========================== */
+
+        .hero {
+            background: #f5f5f5;
+            padding: 110px 0;
+        }
+
+        .eyebrow {
+            display: inline-block;
+            font-size: 13px;
+            font-weight: 700;
+            letter-spacing: 1.5px;
+            color: #666666;
+            margin-bottom: 18px;
+        }
+
+        .hero p {
+            font-size: 20px;
+            max-width: 760px;
+        }
+
+        .hero-meta {
+            margin-top: 35px;
+            display: flex;
+            gap: 30px;
+            flex-wrap: wrap;
+        }
+
+        .hero-meta div {
+            font-size: 14px;
+        }
+
+        .hero-meta strong {
+            display: block;
+            color: #111111;
+        }
+
+        /* =========================
+            VOICE OF CUSTOMER
+        ========================== */
+
+            .voc-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+            margin-top: 45px;
+            }
+
+            .voc-card {
+            background: #ffffff;
+            border: 1px solid #dddddd;
+            padding: 28px;
+            }
+
+            .voc-card h3 {
+            font-size: 20px;
+            }
+
+            .voc-card p {
+            font-size: 15px;
+            }
+
+            .voc-conclusion {
+            margin-top: 70px;
+            padding: 45px;
+            background: #111111;
+            color: #ffffff;
+            }
+
+            .voc-conclusion h2 {
+            color: #ffffff;
+            max-width: 800px;
+            }
+
+            .voc-conclusion p {
+            color: #dddddd;
+            font-size: 20px;
+            }
+
+            /* =========================
+   CORE INSIGHT
+========================== */
+
+.insight-box {
+    margin-top: 45px;
+    padding: 40px;
+    border-left: 5px solid #111111;
+    background: #f5f5f5;
+}
+
+.insight-box h3 {
+    margin-bottom: 10px;
+}
+
+.insight-box p {
+    font-size: 22px;
+    color: #111111;
+}
+
+/* =========================
+   MESSAGING TERRITORIES
+========================== */
+
+.territory-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    margin-top: 45px;
+}
+
+.territory-card {
+    background: #ffffff;
+    border: 1px solid #dddddd;
+    padding: 25px;
+}
+
+.territory-card h3 {
+    font-size: 20px;
+}
+
+.territory-card p {
+    font-size: 15px;
+}
+
+
+.selected-angle {
+    margin-top: 60px;
+    padding: 35px;
+    background: #111111;
+    color: #ffffff;
+}
+
+.selected-angle h3 {
+    color: #ffffff;
+}
+
+.selected-angle p {
+    color: #dddddd;
+}
+
+/* =========================
+   META ADS
+========================== */
+
+.ad-card {
+    margin-top: 45px;
+    padding: 40px;
+    border: 1px solid #dddddd;
+    background: #ffffff;
+}
+
+.ad-card h3 {
+    font-size: 30px;
+    margin-bottom: 25px;
+}
+
+.ad-card p {
+    margin-top: 15px;
+}
+
+.creative-box {
+    margin-top: 30px;
+    padding: 25px;
+    background: #f5f5f5;
+    border: 1px dashed #bbbbbb;
+    font-size: 14px;
+    color: #444444;
+}
+
+/* =========================
+   MESSAGE MATCH
+========================== */
+
+.journey {
+    margin-top: 45px;
+}
+
+.journey-card {
+    padding: 30px;
+    background: #ffffff;
+    border: 1px solid #dddddd;
+    margin: 15px 0;
+}
+
+.journey-card h3 {
+    font-size: 18px;
+    letter-spacing: 0.5px;
+}
+
+.arrow {
+    text-align: center;
+    font-size: 28px;
+    color: #777777;
+}
+
+/* =========================
+   LANDING PAGE CONCEPT
+========================== */
+
+.landing-preview {
+    margin-top: 45px;
+    border: 1px solid #dddddd;
+}
+
+.landing-section {
+    padding: 35px;
+    border-bottom: 1px solid #dddddd;
+}
+
+.landing-section:last-child {
+    border-bottom: none;
+}
+
+.landing-section h3 {
+    font-size: 28px;
+}
+
+/* =========================
+   FEATURE BENEFITS
+========================== */
+
+.feature-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    margin-top: 45px;
+}
+
+.feature-card {
+    background: #ffffff;
+    border: 1px solid #dddddd;
+    padding: 30px;
+}
+
+.feature-card h3 {
+    font-size: 18px;
+}
+
+.feature-card p {
+    font-size: 15px;
+}
+
+.feature-card hr {
+    border: none;
+    border-top: 1px solid #dddddd;
+    margin: 20px 0;
+}
+
+/* =========================
+   OBJECTIONS
+========================== */
+
+.objection-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    margin-top: 45px;
+}
+
+.objection-card {
+    padding: 30px;
+    border: 1px solid #dddddd;
+    background: #ffffff;
+}
+
+.objection-card h3 {
+    font-size: 20px;
+}
+
+/* =========================
+   CRO TESTING
+========================== */
+
+.test-table {
+    margin-top: 45px;
+    border: 1px solid #dddddd;
+}
+
+.test-row {
+    display: grid;
+    grid-template-columns: 1.2fr 2fr 2fr 1.3fr;
+    border-bottom: 1px solid #dddddd;
+}
+
+.test-row:last-child {
+    border-bottom: none;
+}
+
+.test-row > div {
+    padding: 18px;
+    border-right: 1px solid #dddddd;
+    font-size: 14px;
+}
+
+.test-row > div:last-child {
+    border-right: none;
+}
+
+.test-header {
+    background: #111111;
+    color: #ffffff;
+    font-weight: 700;
+}
+
+.testing-note {
+    margin-top: 45px;
+    padding: 35px;
+    background: #f5f5f5;
+}
+
+.testing-note p {
+    margin-top: 10px;
+}
+
+/* =========================
+   AI WORKFLOW
+========================== */
+
+.ai-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    margin-top: 45px;
+}
+
+.ai-card {
+    background: #ffffff;
+    border: 1px solid #dddddd;
+    padding: 28px;
+}
+
+.ai-card span {
+    font-weight: 700;
+    color: #777777;
+}
+
+.ai-card h3 {
+    margin-top: 15px;
+}
+
+.ai-card p {
+    font-size: 15px;
+}
+
+.ai-prompt {
+    margin-top: 50px;
+    padding: 35px;
+    background: #111111;
+}
+
+.ai-prompt .small-label {
+    color: #aaaaaa;
+}
+
+.ai-prompt p {
+    color: #ffffff;
+    font-size: 18px;
+}
+
+.ai-tools {
+    margin-top: 45px;
+}
+
+.ai-tools p {
+    margin-top: 12px;
+}
+
+        /* =========================
+           UTILITY
+        ========================== */
+
+        .light-section {
+            background: #f5f5f5;
+        }
+
+        .small-label {
+            font-size: 13px;
+            font-weight: 700;
+            letter-spacing: 1px;
+            color: #777777;
+            text-transform: uppercase;
+            margin-bottom: 12px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- =========================
+         NAVIGATION
+    ========================== -->
+
+    <nav>
+        <div class="container nav-inner">
+
+            <div class="logo">
+                REACHN ULTIMATE ZEM
+            </div>
+
+            <ul class="nav-links">
+                <li><a href="#brief">Brief</a></li>
+                <li><a href="#voc">Customer Insight</a></li>
+                <li><a href="#ads">Meta Ads</a></li>
+                <li><a href="#landing-page">Landing Page</a></li>
+                <li><a href="#cro">CRO</a></li>
+                <li><a href="#ai">AI Workflow</a></li>
+            </ul>
+
+        </div>
+    </nav>
+
+
+    <!-- =========================
+         HERO
+    ========================== -->
+
+    <header class="hero">
+
+        <div class="container">
+
+            <span class="eyebrow">
+                SPECULATIVE ECOMMERCE CAMPAIGN
+            </span>
+
+            <h1>
+                ReachN Ultimate ZEM
+            </h1>
+
+            <p>
+                From customer complaint to conversion.
+            </p>
+
+            <p style="margin-top: 18px;">
+                A Voice-of-Customer campaign concept for Silvery® Restcool Sheets,
+                exploring how consumer insight, direct-response copy, AI-assisted
+                ideation and CRO can work together to turn a sleep problem into
+                a campaign.
+            </p>
+
+            <a href="#brief" class="button">
+                Explore the Campaign ↓
+            </a>
+
+            <div class="hero-meta">
+
+                <div>
+                    <strong>Brand</strong>
+                    Silvery®
+                </div>
+
+                <div>
+                    <strong>Product</strong>
+                    Restcool Sheets
+                </div>
+
+                <div>
+                    <strong>Campaign</strong>
+                    ReachN Ultimate ZEM
+                </div>
+
+                <div>
+                    <strong>Format</strong>
+                    Meta + Landing Page
+                </div>
+
+                <div>
+                    <strong>Status</strong>
+                    Speculative Portfolio Concept
+                </div>
+
+            </div>
+
+        </div>
+
+    </header>
+
+
+    <!-- =========================
+         PLACEHOLDER FOR NEXT SECTION
+    ========================== -->
+
+    <section id="brief">
+
+    <div class="container">
+
+        <div class="small-label">
+            01 — THE BRIEF
+        </div>
+
+        <h2>
+            The challenge
+        </h2>
+
+        <p>
+            Hot sleepers don't necessarily struggle to fall asleep.
+            They struggle to stay comfortably asleep when heat, sweat
+            and discomfort interrupt the night.
+        </p>
+
+        <p style="margin-top: 18px;">
+            The objective was to develop a direct-response campaign
+            that turns this customer tension into paid-social creative
+            and a message-matched landing page.
+        </p>
+
+        <div class="hero-meta" style="margin-top: 40px;">
+
+            <div>
+                <strong>Customer</strong>
+                Hot sleepers
+            </div>
+
+            <div>
+                <strong>Channel</strong>
+                Meta
+            </div>
+
+            <div>
+                <strong>Conversion path</strong>
+                Ad → Landing Page
+            </div>
+
+            <div>
+                <strong>Core problem</strong>
+                Interrupted sleep
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<section id="voc" class="light-section">
+
+    <div class="container">
+
+        <div class="small-label">
+            02 — VOICE OF CUSTOMER
+        </div>
+
+        <h2>
+            Start with what customers actually say.
+        </h2>
+
+        <p>
+            For this speculative project, I created a small fictional
+            Voice-of-Customer dataset based on recurring complaints and
+            motivations found in the bedding category.
+        </p>
+
+        <div class="voc-grid">
+
+            <div class="voc-card">
+                <h3>“I wake up sweating.”</h3>
+                <p>
+                    The customer isn't simply uncomfortable.
+                    Heat is actively interrupting sleep.
+                </p>
+            </div>
+
+            <div class="voc-card">
+                <h3>“Cooling sheets stop feeling cool.”</h3>
+                <p>
+                    Customers are skeptical of products that provide
+                    only a temporary cooling sensation.
+                </p>
+            </div>
+
+            <div class="voc-card">
+                <h3>“I keep flipping my pillow.”</h3>
+                <p>
+                    The customer is actively searching for a cooler
+                    surface during the night.
+                </p>
+            </div>
+
+            <div class="voc-card">
+                <h3>“My partner likes it warmer.”</h3>
+                <p>
+                    Temperature preferences can create conflict
+                    between sleeping partners.
+                </p>
+            </div>
+
+            <div class="voc-card">
+                <h3>“My sheets get gross quickly.”</h3>
+                <p>
+                    Sweat creates a freshness and laundry problem,
+                    not just a comfort problem.
+                </p>
+            </div>
+
+            <div class="voc-card">
+                <h3>“I just want to sleep through the night.”</h3>
+                <p>
+                    The ultimate desired outcome isn't cooler fabric.
+                    It's uninterrupted sleep.
+                </p>
+            </div>
+
+        </div>
+
+        <div class="voc-conclusion">
+
+            <div class="small-label">
+                THE PATTERN
+            </div>
+
+            <h2>
+                The customer isn't looking for “cool sheets.”
+            </h2>
+
+            <p>
+                They're looking for uninterrupted sleep.
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+
+<section id="insight">
+
+    <div class="container">
+
+        <div class="small-label">
+            03 — CORE CONSUMER INSIGHT
+        </div>
+
+        <h2>
+            The problem isn't falling asleep. It's staying asleep.
+        </h2>
+
+        <p>
+            Hot sleepers don't usually struggle with bedtime itself.
+            The frustration begins after they fall asleep, when heat,
+            sweat and discomfort interrupt their rest.
+        </p>
+
+        <p style="margin-top: 18px;">
+            This changes the marketing approach. We are not selling
+            “cool sheets.” We are solving the moment when sleep gets
+            disrupted.
+        </p>
+
+        <div class="insight-box">
+
+            <h3>
+                Customer tension
+            </h3>
+
+            <p>
+                “I can fall asleep. I just can't stay comfortable
+                long enough to stay asleep.”
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+
+<section class="light-section">
+
+    <div class="container">
+
+        <div class="small-label">
+            04 — MESSAGING TERRITORIES
+        </div>
+
+        <h2>
+            Turning insight into campaign angles.
+        </h2>
+
+        <p>
+            The customer problem can be approached from multiple
+            psychological angles. Each territory creates a different
+            reason for someone to care.
+        </p>
+
+
+        <div class="territory-grid">
+
+
+            <div class="territory-card">
+
+                <h3>
+                    01 — The 3 AM Problem
+                </h3>
+
+                <p>
+                    Focus on the exact moment heat interrupts sleep.
+                    Built around frustration and recognition.
+                </p>
+
+            </div>
+
+
+            <div class="territory-card">
+
+                <h3>
+                    02 — Cooling That Lasts
+                </h3>
+
+                <p>
+                    Addresses skepticism from customers who have
+                    tried temporary cooling products.
+                </p>
+
+            </div>
+
+
+            <div class="territory-card">
+
+                <h3>
+                    03 — The Hot Sleeper
+                </h3>
+
+                <p>
+                    Targets customers who identify with running hot
+                    while sleeping.
+                </p>
+
+            </div>
+
+
+            <div class="territory-card">
+
+                <h3>
+                    04 — Temperature Conflict
+                </h3>
+
+                <p>
+                    Uses partner temperature differences as a
+                    relatable scenario.
+                </p>
+
+            </div>
+
+
+            <div class="territory-card">
+
+                <h3>
+                    05 — Less Laundry
+                </h3>
+
+                <p>
+                    Positions freshness and convenience as a daily
+                    quality-of-life improvement.
+                </p>
+
+            </div>
+
+
+        </div>
+
+
+        <div class="selected-angle">
+
+            <div class="small-label">
+                SELECTED CAMPAIGN ANGLES
+            </div>
+
+            <h3>
+                3 AM Problem + Cooling Skeptic + ReachN Ultimate ZEM
+            </h3>
+
+            <p>
+                These three angles demonstrate pain recognition,
+                objection handling and creative brand storytelling.
+            </p>
+
+        </div>
+
+
+    </div>
+
+</section>
+
+<section id="ads">
+
+    <div class="container">
+
+        <div class="small-label">
+            05 — META AD CAMPAIGN
+        </div>
+
+        <h2>
+            Turning customer insight into paid-social creative.
+        </h2>
+
+        <p>
+            Three different creative angles were developed to test
+            different psychological triggers: pain recognition,
+            objection handling and brand memorability.
+        </p>
+
+
+        <!-- AD 1 -->
+
+        <div class="ad-card">
+
+            <div class="small-label">
+                AD 01 — PAIN RECOGNITION
+            </div>
+
+            <h3>
+                Your 3 AM wake-up call wasn't on the schedule.
+            </h3>
+
+            <p>
+                <strong>Strategy:</strong>
+                Highlight the frustration of waking up overheated
+                after already falling asleep.
+            </p>
+
+            <p>
+                <strong>Primary Text:</strong><br>
+                You finally fall asleep. Then the heat hits.
+                The covers come off. The pillow gets flipped.
+                Suddenly you're wide awake again.
+            </p>
+
+            <p>
+                Silvery® Restcool Sheets are designed to help
+                regulate temperature and manage moisture throughout
+                the night.
+            </p>
+
+            <p>
+                <strong>Headline:</strong>
+                Stop waking up hot.
+            </p>
+
+            <p>
+                <strong>CTA:</strong>
+                Shop Now
+            </p>
+
+            <div class="creative-box">
+                META CREATIVE CONCEPT:
+                <br><br>
+                3:00 AM bedroom scene.
+                Person awake and uncomfortable.
+                Contrast with peaceful sleep.
+            </div>
+
+        </div>
+
+
+
+        <!-- AD 2 -->
+
+        <div class="ad-card">
+
+            <div class="small-label">
+                AD 02 — OBJECTION HANDLING
+            </div>
+
+            <h3>
+                Cool at bedtime isn't enough.
+            </h3>
+
+            <p>
+                <strong>Strategy:</strong>
+                Address customers who have already tried
+                “cooling” products and were disappointed.
+            </p>
+
+            <p>
+                <strong>Primary Text:</strong><br>
+                A cold feeling when you first get into bed
+                isn't the same as staying comfortable all night.
+            </p>
+
+            <p>
+                Silvery® uses silver-infused technology designed
+                for continuous temperature management.
+            </p>
+
+            <p>
+                <strong>Headline:</strong>
+                Cooling that keeps working.
+            </p>
+
+            <p>
+                <strong>CTA:</strong>
+                Learn More
+            </p>
+
+            <div class="creative-box">
+                META CREATIVE CONCEPT:
+                <br><br>
+                Timeline visual:
+                <br>
+                10 PM → 3 AM → 7 AM
+                <br>
+                Comfortable through every sleep cycle.
+            </div>
+
+        </div>
+
+
+
+        <!-- AD 3 -->
+
+        <div class="ad-card">
+
+            <div class="small-label">
+                AD 03 — BRAND CONCEPT
+            </div>
+
+            <h3>
+                “Geaux” to bed fast so your...
+                <br>
+                ReachN Ultimate ZEM
+            </h3>
+
+            <p>
+                <strong>Strategy:</strong>
+                Create a memorable campaign concept using
+                location-based storytelling.
+            </p>
+
+            <p>
+                <strong>Primary Text:</strong><br>
+                Louisiana heat? Humid nights?
+                Don't let what's happening outside decide
+                how you sleep inside.
+            </p>
+
+            <p>
+                Silvery® Restcool Sheets help create a cooler,
+                more comfortable sleep environment.
+            </p>
+
+            <p>
+                <strong>Headline:</strong>
+                ReachN Ultimate ZEM.
+            </p>
+
+            <p>
+                <strong>CTA:</strong>
+                Shop Now
+            </p>
+
+            <div class="creative-box">
+                META CREATIVE CONCEPT:
+                <br><br>
+                Louisiana-inspired nighttime visual.
+                Warm environment outside.
+                Comfortable sleep inside.
+            </div>
+
+        </div>
+
+
+    </div>
+
+</section>
+
+<section class="light-section">
+
+    <div class="container">
+
+        <div class="small-label">
+            06 — MESSAGE MATCH
+        </div>
+
+        <h2>
+            From first click to conversion.
+        </h2>
+
+        <p>
+            Each ad creates a specific customer expectation.
+            The landing page continues that same conversation instead
+            of introducing a new message.
+        </p>
+
+
+        <div class="journey">
+
+            <div class="journey-card">
+
+                <h3>
+                    META AD
+                </h3>
+
+                <p>
+                    “Your 3 AM wake-up call wasn't on the schedule.”
+                </p>
+
+            </div>
+
+
+            <div class="arrow">
+                ↓
+            </div>
+
+
+            <div class="journey-card">
+
+                <h3>
+                    LANDING PAGE
+                </h3>
+
+                <p>
+                    “The problem isn't falling asleep.
+                    It's staying asleep.”
+                </p>
+
+            </div>
+
+
+            <div class="arrow">
+                ↓
+            </div>
+
+
+            <div class="journey-card">
+
+                <h3>
+                    PRODUCT MECHANISM
+                </h3>
+
+                <p>
+                    Silver-infused fabric + moisture management
+                    + temperature regulation.
+                </p>
+
+            </div>
+
+
+            <div class="arrow">
+                ↓
+            </div>
+
+
+            <div class="journey-card">
+
+                <h3>
+                    CUSTOMER OUTCOME
+                </h3>
+
+                <p>
+                    Cooler nights. Fewer interruptions.
+                    Better mornings.
+                </p>
+
+            </div>
+
+
+        </div>
+
+
+    </div>
+
+</section>
+
+<section id="landing-page">
+
+    <div class="container">
+
+        <div class="small-label">
+            07 — LANDING PAGE CONCEPT
+        </div>
+
+        <h2>
+            The landing page continues the customer's story.
+        </h2>
+
+        <p>
+            Instead of leading with product specifications,
+            the page begins with the customer's problem and
+            introduces technology only after the need is established.
+        </p>
+
+
+        <div class="landing-preview">
+
+
+            <div class="landing-section">
+
+                <span class="small-label">
+                    HERO
+                </span>
+
+                <h3>
+                    The problem isn't falling asleep.
+                    It's staying asleep.
+                </h3>
+
+                <p>
+                    Silvery® Restcool Sheets are designed to help
+                    regulate temperature and manage moisture
+                    throughout the night.
+                </p>
+
+            </div>
+
+
+
+            <div class="landing-section">
+
+                <span class="small-label">
+                    PROBLEM
+                </span>
+
+                <h3>
+                    It's 3:07 AM. You're awake again.
+                </h3>
+
+                <p>
+                    Heat, sweat and discomfort can turn a normal
+                    night of sleep into a cycle of waking up and
+                    trying to cool down.
+                </p>
+
+            </div>
+
+
+
+            <div class="landing-section">
+
+                <span class="small-label">
+                    SOLUTION
+                </span>
+
+                <h3>
+                    Technology designed for hot sleepers.
+                </h3>
+
+                <p>
+                    Silver-infused fabric, moisture-wicking
+                    construction and breathable comfort work
+                    together while you sleep.
+                </p>
+
+            </div>
+
+
+
+            <div class="landing-section">
+
+                <span class="small-label">
+                    CTA
+                </span>
+
+                <h3>
+                    ReachN Ultimate ZEM.
+                </h3>
+
+                <p>
+                    Discover bedding designed for cooler,
+                    more comfortable sleep.
+                </p>
+
+            </div>
+
+
+        </div>
+
+
+    </div>
+
+</section>
+
+<section class="light-section">
+
+    <div class="container">
+
+        <div class="small-label">
+            08 — FEATURE TO BENEFIT TRANSLATION
+        </div>
+
+        <h2>
+            Turning technology into customer value.
+        </h2>
+
+        <p>
+            Ecommerce customers rarely buy a technical specification.
+            They buy the outcome that specification creates.
+        </p>
+
+
+        <div class="feature-grid">
+
+
+            <div class="feature-card">
+
+                <h3>
+                    Feature
+                </h3>
+
+                <p>
+                    Silver-infused performance fabric.
+                </p>
+
+                <hr>
+
+                <h3>
+                    Translation
+                </h3>
+
+                <p>
+                    Helps regulate temperature throughout
+                    the night.
+                </p>
+
+                <hr>
+
+                <h3>
+                    Customer Benefit
+                </h3>
+
+                <p>
+                    Wake up feeling cooler and more comfortable.
+                </p>
+
+            </div>
+
+
+
+            <div class="feature-card">
+
+                <h3>
+                    Feature
+                </h3>
+
+                <p>
+                    Moisture-wicking construction.
+                </p>
+
+                <hr>
+
+                <h3>
+                    Translation
+                </h3>
+
+                <p>
+                    Moves moisture away from the skin.
+                </p>
+
+                <hr>
+
+                <h3>
+                    Customer Benefit
+                </h3>
+
+                <p>
+                    Reduce the sweaty, uncomfortable feeling
+                    that interrupts sleep.
+                </p>
+
+            </div>
+
+
+
+            <div class="feature-card">
+
+                <h3>
+                    Feature
+                </h3>
+
+                <p>
+                    Self-cleaning technology.
+                </p>
+
+                <hr>
+
+                <h3>
+                    Translation
+                </h3>
+
+                <p>
+                    Helps bedding stay fresher longer.
+                </p>
+
+                <hr>
+
+                <h3>
+                    Customer Benefit
+                </h3>
+
+                <p>
+                    Less frequent washing and a cleaner
+                    sleep environment.
+                </p>
+
+            </div>
+
+
+        </div>
+
+
+    </div>
+
+</section>
+
+<section id="objections">
+
+    <div class="container">
+
+        <div class="small-label">
+            09 — OBJECTION HANDLING
+        </div>
+
+        <h2>
+            Addressing the reasons customers hesitate.
+        </h2>
+
+
+        <div class="objection-grid">
+
+
+            <div class="objection-card">
+
+                <h3>
+                    “I've tried cooling sheets before.”
+                </h3>
+
+                <p>
+                    Response:
+                    Position Silvery® around continuous
+                    temperature management instead of only
+                    a cold initial feeling.
+                </p>
+
+            </div>
+
+
+
+            <div class="objection-card">
+
+                <h3>
+                    “Is this just another bedding claim?”
+                </h3>
+
+                <p>
+                    Response:
+                    Use product mechanism, customer feedback
+                    and expert positioning to build trust.
+                </p>
+
+            </div>
+
+
+
+            <div class="objection-card">
+
+                <h3>
+                    “Why not just wash my sheets more?”
+                </h3>
+
+                <p>
+                    Response:
+                    Highlight convenience and freshness
+                    benefits, not just cleanliness.
+                </p>
+
+            </div>
+
+
+        </div>
+
+
+    </div>
+
+</section>
+
+<section id="cro">
+
+    <div class="container">
+
+        <div class="small-label">
+            10 — CRO & A/B TESTING
+        </div>
+
+        <h2>
+            Don't guess. Build hypotheses and test them.
+        </h2>
+
+        <p>
+            Without live campaign data, these are proposed tests rather
+            than claimed results. Each test is tied to a specific
+            customer behavior or conversion hypothesis.
+        </p>
+
+
+        <div class="test-table">
+
+            <div class="test-row test-header">
+
+                <div>
+                    Test
+                </div>
+
+                <div>
+                    Version A
+                </div>
+
+                <div>
+                    Version B
+                </div>
+
+                <div>
+                    Primary Metric
+                </div>
+
+            </div>
+
+
+            <div class="test-row">
+
+                <div>
+                    Hero headline
+                </div>
+
+                <div>
+                    The problem isn't falling asleep.
+                    It's staying asleep.
+                </div>
+
+                <div>
+                    Stop waking up hot.
+                </div>
+
+                <div>
+                    Conversion Rate
+                </div>
+
+            </div>
+
+
+            <div class="test-row">
+
+                <div>
+                    Ad hook
+                </div>
+
+                <div>
+                    Your 3 AM wake-up call wasn't on the schedule.
+                </div>
+
+                <div>
+                    Cool at bedtime isn't enough.
+                </div>
+
+                <div>
+                    CTR
+                </div>
+
+            </div>
+
+
+            <div class="test-row">
+
+                <div>
+                    Proof positioning
+                </div>
+
+                <div>
+                    Customer results first
+                </div>
+
+                <div>
+                    Product technology first
+                </div>
+
+                <div>
+                    Conversion Rate
+                </div>
+
+            </div>
+
+
+            <div class="test-row">
+
+                <div>
+                    CTA
+                </div>
+
+                <div>
+                    Shop Restcool Sheets
+                </div>
+
+                <div>
+                    ReachN Ultimate ZEM
+                </div>
+
+                <div>
+                    Click-through Rate
+                </div>
+
+            </div>
+
+
+            <div class="test-row">
+
+                <div>
+                    Objection
+                </div>
+
+                <div>
+                    “Cooling that lasts”
+                </div>
+
+                <div>
+                    “Designed for hot sleepers”
+                </div>
+
+                <div>
+                    Conversion Rate
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <div class="testing-note">
+
+            <h3>
+                Testing principle
+            </h3>
+
+            <p>
+                The objective isn't to test random wording.
+                Each variation should answer a specific question
+                about what motivates the customer.
+            </p>
+
+        </div>
+
+
+    </div>
+
+</section>
+
+<section id="ai" class="light-section">
+
+    <div class="container">
+
+        <div class="small-label">
+            11 — AI WORKFLOW
+        </div>
+
+        <h2>
+            AI accelerated exploration. Human judgment determined what survived.
+        </h2>
+
+        <p>
+            AI was used as a force multiplier throughout the project —
+            not as a replacement for customer research, strategy or
+            editorial judgment.
+        </p>
+
+
+        <div class="ai-grid">
+
+
+            <div class="ai-card">
+
+                <span>01</span>
+
+                <h3>
+                    Research
+                </h3>
+
+                <p>
+                    Organize customer observations into recurring
+                    frustrations, motivations and objections.
+                </p>
+
+            </div>
+
+
+            <div class="ai-card">
+
+                <span>02</span>
+
+                <h3>
+                    Ideation
+                </h3>
+
+                <p>
+                    Generate multiple creative angles, hooks and
+                    messaging territories from the identified insight.
+                </p>
+
+            </div>
+
+
+            <div class="ai-card">
+
+                <span>03</span>
+
+                <h3>
+                    Challenge
+                </h3>
+
+                <p>
+                    Ask AI to critique concepts for generic language,
+                    weak differentiation and unclear customer benefit.
+                </p>
+
+            </div>
+
+
+            <div class="ai-card">
+
+                <span>04</span>
+
+                <h3>
+                    Refine
+                </h3>
+
+                <p>
+                    Iterate on the strongest concepts while maintaining
+                    the original strategic objective.
+                </p>
+
+            </div>
+
+
+            <div class="ai-card">
+
+                <span>05</span>
+
+                <h3>
+                    Human Edit
+                </h3>
+
+                <p>
+                    Select the final direction based on judgment,
+                    customer relevance, clarity and conversion potential.
+                </p>
+
+            </div>
+
+
+        </div>
+
+
+        <div class="ai-prompt">
+
+            <div class="small-label">
+                EXAMPLE PROMPT
+            </div>
+
+            <p>
+                “Review these creative concepts as a skeptical ecommerce
+                customer. Eliminate anything generic, cliché, unclear or
+                difficult to connect to a measurable customer benefit.
+                Explain why each rejected concept fails.”
+            </p>
+
+        </div>
+
+
+        <div class="ai-tools">
+
+            <h3>
+                Tools used
+            </h3>
+
+            <p>
+                <strong>ChatGPT</strong> — consumer insight analysis,
+                creative ideation, copy iteration and critique.
+            </p>
+
+            <p>
+                <strong>VS Code Web</strong> — HTML/CSS implementation.
+            </p>
+
+            <p>
+                <strong>GitHub</strong> — project hosting and version control.
+            </p>
+
+        </div>
+
+
+    </div>
+
+</section>
+
+<section>
+
+    <div class="container">
+
+        <div class="small-label">
+            12 — FINAL TAKEAWAY
+        </div>
+
+        <h2>
+            From complaint to conversion.
+        </h2>
+
+        <p>
+            This project demonstrates how a customer observation can
+            become a complete ecommerce creative system — from
+            Voice-of-Customer research to Meta advertising, landing-page
+            messaging, feature-to-benefit translation and CRO hypotheses.
+        </p>
+
+        <div class="hero-meta">
+
+            <div>
+                <strong>Customer Insight</strong>
+                Understand the problem
+            </div>
+
+            <div>
+                <strong>Creative Strategy</strong>
+                Find the angle
+            </div>
+
+            <div>
+                <strong>Direct Response</strong>
+                Write for action
+            </div>
+
+            <div>
+                <strong>CRO</strong>
+                Test the hypothesis
+            </div>
+
+            <div>
+                <strong>AI</strong>
+                Accelerate the workflow
+            </div>
+
+        </div>
+
+        <p style="margin-top: 50px; font-size: 13px;">
+            Speculative portfolio project created independently for
+            educational and application purposes. Customer data,
+            campaign concepts and proposed performance tests are
+            fictional unless otherwise stated.
+        </p>
+
+    </div>
+
+</section>
+
+</body>
+</html>
