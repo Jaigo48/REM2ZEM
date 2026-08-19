@@ -72,8 +72,16 @@
         ========================== */
 
         nav {
+            position: sticky;
+            top: 0;
+            z-index: 1000;
             border-bottom: 1px solid #dddddd;
             background: #ffffff;
+            transition: background-color 0.2s ease;
+        }
+
+        nav.scrolled {
+            background: #f3f7fb;
         }
 
         .nav-inner {
@@ -525,12 +533,23 @@
             </div>
 
             <ul class="nav-links">
+
                 <li><a href="#brief">Brief</a></li>
+
                 <li><a href="#voc">Customer Insight</a></li>
+
+                <li><a href="#research">Research</a></li>
+
                 <li><a href="#ads">Meta Ads</a></li>
+
                 <li><a href="#landing-page">Landing Page</a></li>
+
                 <li><a href="#cro">CRO</a></li>
+
+                <li><a href="#measurement">Measurement</a></li>
+
                 <li><a href="#ai">AI Workflow</a></li>
+                
             </ul>
 
         </div>
@@ -606,7 +625,7 @@
          PLACEHOLDER FOR NEXT SECTION
     ========================== -->
 
-    <section id="brief">
+<section id="brief">
 
     <div class="container">
 
@@ -650,6 +669,36 @@
             <div>
                 <strong>Core problem</strong>
                 Interrupted sleep
+            </div>
+
+        </div>
+
+
+        <div class="hero-meta" style="margin-top: 35px;">
+
+            <div>
+                <strong>Objective</strong>
+                Increase purchases from hot sleepers
+            </div>
+
+            <div>
+                <strong>Audience</strong>
+                Adults experiencing night sweats and temperature discomfort
+            </div>
+
+            <div>
+                <strong>Primary KPI</strong>
+                Conversion Rate
+            </div>
+
+            <div>
+                <strong>Secondary KPIs</strong>
+                CTR, CPA, ROAS
+            </div>
+
+            <div>
+                <strong>Campaign constraint</strong>
+                Build the campaign around customer insight rather than product features alone
             </div>
 
         </div>
@@ -748,12 +797,107 @@
 
 </section>
 
+<section id="research" class="light-section">
+
+    <div class="container">
+
+        <div class="small-label">
+            03 — RESEARCH PROCESS
+        </div>
+
+        <h2>
+            Research should shape the message before the copy is written.
+        </h2>
+
+        <p>
+            In a live ecommerce campaign, customer and competitor research
+            would be used to identify recurring language, frustrations,
+            objections and unmet expectations before developing creative.
+        </p>
+
+        <div class="ai-grid">
+
+            <div class="ai-card">
+
+                <span>01</span>
+
+                <h3>
+                    Customer Language
+                </h3>
+
+                <p>
+                    Review customer reviews, discussions and feedback to
+                    identify the words customers naturally use to describe
+                    their problems and desired outcomes.
+                </p>
+
+            </div>
+
+            <div class="ai-card">
+
+                <span>02</span>
+
+                <h3>
+                    Competitor Research
+                </h3>
+
+                <p>
+                    Review competitor advertising and landing pages to
+                    understand the promises, angles and objections already
+                    being used in the category.
+                </p>
+
+            </div>
+
+            <div class="ai-card">
+
+                <span>03</span>
+
+                <h3>
+                    Pattern Extraction
+                </h3>
+
+                <p>
+                    Group recurring customer language into pain points,
+                    motivations, objections and potential messaging
+                    opportunities.
+                </p>
+
+            </div>
+
+        </div>
+
+        <div class="testing-note">
+
+            <h3>
+                Research methods for a live campaign
+            </h3>
+
+            <p>
+                Potential sources would include the Meta Ad Library,
+                Amazon reviews, Reddit discussions, competitor landing-page
+                teardowns and customer-language analysis.
+            </p>
+
+            <p>
+                For this speculative portfolio project, the Voice-of-Customer
+                observations are fictional and simulated. The methods above
+                are presented as a research framework rather than as research
+                that was actually conducted for this case study.
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+
 <section id="insight">
 
     <div class="container">
 
         <div class="small-label">
-            03 — CORE CONSUMER INSIGHT
+            04 — CORE CONSUMER INSIGHT
         </div>
 
         <h2>
@@ -794,7 +938,7 @@
     <div class="container">
 
         <div class="small-label">
-            04 — MESSAGING TERRITORIES
+            05 — MESSAGING TERRITORIES
         </div>
 
         <h2>
@@ -911,7 +1055,7 @@
     <div class="container">
 
         <div class="small-label">
-            05 — META AD CAMPAIGN
+            06 — META AD CAMPAIGN
         </div>
 
         <h2>
@@ -919,8 +1063,8 @@
         </h2>
 
         <p>
-            Three different creative angles were developed to test
-            different psychological triggers: pain recognition,
+            Three creative angles were developed to give paid media and
+            creative teams distinct hypotheses to test: pain recognition,
             objection handling and brand memorability.
         </p>
 
@@ -951,9 +1095,9 @@
             </p>
 
             <p>
-                Silvery® Restcool Sheets are designed to help
-                regulate temperature and manage moisture throughout
-                the night.
+                Proposed product positioning:
+                Position Silvery® Restcool Sheets around temperature regulation
+                and moisture management throughout the night.
             </p>
 
             <p>
@@ -1003,8 +1147,9 @@
             </p>
 
             <p>
-                Silvery® uses silver-infused technology designed
-                for continuous temperature management.
+                Proposed product positioning:
+                Use Silvery®'s silver-infused technology as the mechanism
+                behind a continuous temperature-management message.
             </p>
 
             <p>
@@ -1093,7 +1238,7 @@
     <div class="container">
 
         <div class="small-label">
-            06 — MESSAGE MATCH
+            07 — MESSAGE MATCH
         </div>
 
         <h2>
@@ -1191,7 +1336,7 @@
     <div class="container">
 
         <div class="small-label">
-            07 — LANDING PAGE CONCEPT
+            08 — LANDING PAGE CONCEPT
         </div>
 
         <h2>
@@ -1220,8 +1365,9 @@
                 </h3>
 
                 <p>
-                    Silvery® Restcool Sheets are designed to help
-                    regulate temperature and manage moisture
+                    Proposed product positioning:
+                    Silvery® Restcool Sheets can be positioned around
+                    temperature regulation and moisture management
                     throughout the night.
                 </p>
 
@@ -1260,9 +1406,10 @@
                 </h3>
 
                 <p>
-                    Silver-infused fabric, moisture-wicking
-                    construction and breathable comfort work
-                    together while you sleep.
+                    Proposed product positioning:
+                    Silver-infused fabric, moisture-wicking construction
+                    and breathable comfort can be presented as the
+                    mechanisms supporting a cooler sleep experience.
                 </p>
 
             </div>
@@ -1299,7 +1446,7 @@
     <div class="container">
 
         <div class="small-label">
-            08 — FEATURE TO BENEFIT TRANSLATION
+            09 — FEATURE TO BENEFIT TRANSLATION
         </div>
 
         <h2>
@@ -1431,7 +1578,7 @@
     <div class="container">
 
         <div class="small-label">
-            09 — OBJECTION HANDLING
+            10 — OBJECTION HANDLING
         </div>
 
         <h2>
@@ -1467,8 +1614,8 @@
 
                 <p>
                     Response:
-                    Use product mechanism, customer feedback
-                    and expert positioning to build trust.
+                    Use product mechanism, verified customer evidence
+                    and credible proof points to build trust.
                 </p>
 
             </div>
@@ -1502,7 +1649,7 @@
     <div class="container">
 
         <div class="small-label">
-            10 — CRO & A/B TESTING
+            11 — CRO & A/B TESTING
         </div>
 
         <h2>
@@ -1666,12 +1813,115 @@
 
 </section>
 
+<section id="measurement" class="light-section">
+
+    <div class="container">
+
+        <div class="small-label">
+            12 — PERFORMANCE MEASUREMENT
+        </div>
+
+        <h2>
+            Measure the customer journey, not just the click.
+        </h2>
+
+        <p>
+            A live campaign would be evaluated across the full path from
+            creative attention to purchase efficiency. Each metric helps
+            diagnose a different part of the customer journey.
+        </p>
+
+        <div class="feature-grid">
+
+            <div class="feature-card">
+
+                <h3>
+                    CTR
+                </h3>
+
+                <hr>
+
+                <p>
+                    <strong>What it diagnoses:</strong>
+                </p>
+
+                <p>
+                    Does the creative earn enough attention to make the
+                    customer want to learn more?
+                </p>
+
+            </div>
+
+            <div class="feature-card">
+
+                <h3>
+                    Conversion Rate
+                </h3>
+
+                <hr>
+
+                <p>
+                    <strong>What it diagnoses:</strong>
+                </p>
+
+                <p>
+                    Does the landing page persuade qualified visitors
+                    to take the desired action?
+                </p>
+
+            </div>
+
+            <div class="feature-card">
+
+                <h3>
+                    CPA
+                </h3>
+
+                <hr>
+
+                <p>
+                    <strong>What it diagnoses:</strong>
+                </p>
+
+                <p>
+                    Can the campaign acquire customers efficiently
+                    relative to the cost of the traffic?
+                </p>
+
+            </div>
+
+        </div>
+
+        <div class="testing-note">
+
+            <h3>
+                ROAS
+            </h3>
+
+            <p>
+                Return on ad spend helps evaluate whether the revenue
+                generated by the campaign justifies the advertising
+                investment.
+            </p>
+
+            <p>
+                No performance results are claimed in this portfolio.
+                These metrics represent the proposed measurement framework
+                for a future live campaign.
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+
 <section id="ai" class="light-section">
 
     <div class="container">
 
         <div class="small-label">
-            11 — AI WORKFLOW
+            13 — AI WORKFLOW
         </div>
 
         <h2>
@@ -1818,7 +2068,7 @@
     <div class="container">
 
         <div class="small-label">
-            12 — FINAL TAKEAWAY
+            14 — FINAL TAKEAWAY
         </div>
 
         <h2>
@@ -1871,6 +2121,18 @@
     </div>
 
 </section>
+
+<script>
+    window.addEventListener("scroll", function () {
+        const nav = document.querySelector("nav");
+
+        if (window.scrollY > 10) {
+            nav.classList.add("scrolled");
+        } else {
+            nav.classList.remove("scrolled");
+        }
+    });
+</script>
 
 </body>
 </html>

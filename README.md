@@ -1,33 +1,60 @@
 # ReachN Ultimate ZEM — Ecommerce Copywriting Portfolio
 
-A speculative ecommerce copywriting project created to demonstrate direct-response marketing, consumer psychology, Meta advertising, landing-page strategy, CRO, and AI-assisted copy development.
+A speculative ecommerce copywriting case study created to demonstrate how I approach customer insight, direct-response copywriting, creative strategy, landing pages, CRO, and AI-assisted copy development.
 
-## Project
+## The Project
 
 **Brand:** Silvery®  
 **Campaign:** ReachN Ultimate ZEM  
 **Format:** Ecommerce campaign + landing-page concept  
 **Status:** Speculative portfolio project
 
+The project follows a complete ecommerce conversion journey:
+
+**Customer Insight → Messaging Strategy → Meta Ads → Message Match → Landing Page → Feature-to-Benefit → Objection Handling → CRO → Performance Measurement**
+
 ## What This Project Demonstrates
 
-- Voice-of-Customer research
-- Consumer pain-point analysis
-- Direct-response copywriting
-- Meta ad concepts
-- Landing-page messaging
+- Voice-of-Customer analysis
+- Consumer psychology and pain-point identification
+- Direct-response ecommerce copywriting
+- Meta ad concepts and creative angles
+- Landing-page messaging and message match
 - Feature-to-benefit translation
-- Objection handling
-- A/B testing and CRO thinking
-- AI-assisted copywriting workflow
+- Customer objection handling
+- CRO and A/B testing hypotheses
+- Performance measurement thinking
+- AI-assisted ideation, critique, and copy iteration
+
+## The Core Insight
+
+The campaign is built around a simple customer insight:
+
+> **The problem isn't falling asleep. It's staying asleep.**
+
+Rather than leading with product features, the campaign starts with the customer's problem and works toward the product, benefit, and desired outcome.
+
+## AI Workflow
+
+AI was used as a force multiplier for:
+
+- Consumer insight analysis
+- Creative ideation
+- Copy iteration
+- Conceptual critique
+
+The final direction was selected and refined through human judgment.
+
+> **AI accelerated exploration. Human judgment determined what survived.**
 
 ## Disclaimer
 
-This is an independently created speculative portfolio project for educational and application purposes. Campaign concepts, customer data, testing hypotheses, and performance information are fictional unless explicitly stated otherwise.
+This is an independently created speculative portfolio project for educational and application purposes.
 
-## Built With
+Customer observations and data, campaign concepts, testing hypotheses, and performance information are fictional unless explicitly stated otherwise. The project does not represent an actual Silvery® campaign or claim to have been executed by Silvery® or Ventura Brands Oy.
 
-- HTML
-- CSS
-- GitHub
-- VS Code Web
+## Portfolio
+
+**Live Portfolio:** [ADD LIVE PORTFOLIO LINK HERE]
+
+**GitHub Repository:** [ADD GITHUB REPOSITORY LINK HERE]
