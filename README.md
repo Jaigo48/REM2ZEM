@@ -2,6 +2,20 @@
 
 A speculative ecommerce copywriting case study created to demonstrate how I approach customer insight, direct-response copywriting, creative strategy, landing pages, CRO, and AI-assisted copy development.
 
+<img width="774" height="456" alt="image" src="https://github.com/user-attachments/assets/80953122-2e7d-45cc-bc09-53fa09b0fc87" />
+
+Customer Insight → Creative Strategy → Direct Response → Landing Page → CRO
+
+## View the Portfolio
+
+👉 **[View the live portfolio](https://jaigo48.github.io/REM2ZEM/)**
+
+
+**Focus:** Ecommerce copywriting / Direct response  
+**Channels:** Meta + Landing Pages  
+**Strengths demonstrated:** Consumer psychology, messaging, CRO, AI-assisted copy  
+**Project type:** Speculative case study
+
 ## The Project
 
 **Brand:** Silvery®  
@@ -47,11 +61,18 @@ The final direction was selected and refined through human judgment.
 
 > **AI accelerated exploration. Human judgment determined what survived.**
 
+## My Role
+
+Conceptualized and developed the campaign strategy, customer insight,
+messaging territories, Meta ad concepts, landing-page messaging,
+feature-to-benefit translations, objection handling, CRO hypotheses,
+and AI-assisted copy workflow.
+
 ## Disclaimer
 
 This is an independently created speculative portfolio project for educational and application purposes.
 
-Customer observations and data, campaign concepts, testing hypotheses, and performance information are fictional unless explicitly stated otherwise. The project does not represent an actual Silvery® campaign or claim to have been executed by Silvery® or Ventura Brands Oy.
+Customer observations and data, campaign concepts, testing hypotheses, and performance information are fictional. The project does not represent an actual Silvery® campaign or claim to have been executed by Silvery® or Ventura Brands Oy.
 
 ## Portfolio
 
