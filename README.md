@@ -3,14 +3,22 @@
 A speculative ecommerce copywriting case study created to demonstrate how I approach customer insight, direct-response copywriting, creative strategy, landing pages, CRO, and AI-assisted copy development.
 
 <img width="774" height="456" alt="image" src="https://github.com/user-attachments/assets/80953122-2e7d-45cc-bc09-53fa09b0fc87" />
+<div style="height: 1.5rem;"></div>
+
+<br>
+<img src="https://img.shields.io/badge/CAMPAIGN-48-success?style=flat-square" alt="Campaign 48" width="130">
+<h1>👉 <a href="https://jaigo48.github.io/REM2ZEM/">View the live portfolio</a> 👈</h1>
+<br>
+
+
+> [!NOTE]
+> ### “ReachN Ultimate ZEM”
+> **A proprietary campaign concept focused on guiding hot sleepers to**  
+> **reach the ultimate state of uninterrupted, Zen-like sleep.**
+<br>
 
 Customer Insight → Creative Strategy → Direct Response → Landing Page → CRO
-
-## View the Portfolio
-
-👉 **[View the live portfolio](https://jaigo48.github.io/REM2ZEM/)**
-
-
+<div style="height: 1.5rem;"></div>
 **Focus:** Ecommerce copywriting / Direct response  
 **Channels:** Meta + Landing Pages  
 **Strengths demonstrated:** Consumer psychology, messaging, CRO, AI-assisted copy  
